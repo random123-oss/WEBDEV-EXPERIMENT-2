@@ -1,0 +1,175 @@
+
+body {
+  font-family: Arial, sans-serif;   
+  color: #16202e;                  
+  background-color: #f6f8fb;        
+  line-height: 1.7;                
+}
+
+html {
+  scroll-behavior: smooth;          
+}
+
+a {
+  color: #0b6e8a;                  
+}
+
+.site-nav {
+  background-color: #f6f8fb;
+  border-bottom: 1px solid #d9e0ea; 
+}
+
+.site-nav .navbar-brand,
+.site-nav .nav-link {
+  color: #16202e;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link.active {
+  color: #0b6e8a;                  
+}
+
+
+.hero {
+  min-height: 100vh;               
+  padding-top: 80px;                
+}
+
+.hero-kicker {
+  color: #0b6e8a;
+  font-weight: bold;
+}
+
+.hero-title {
+  font-size: 3rem;                  
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-text {
+  max-width: 600px;               
+}
+
+
+.section {
+  padding: 80px 0;                  
+}
+
+.section-alt {
+  background-color: white;          
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+
+.skill {
+  background-color: transparent;    
+  color: #16202e;
+  border: 1px solid #16202e;       
+  padding: 8px 14px;                
+}
+
+
+.project {
+  background-color: #f6f8fb;
+  border: 1px solid #d9e0ea;
+  border-left: 5px solid #0b6e8a;   
+  padding: 24px;
+}
+
+.project-tech {
+  color: #08566d;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+
+.btn-accent {
+  background-color: #0b6e8a;
+  border-color: #0b6e8a;
+  color: white;
+}
+
+.btn-accent:hover {
+  background-color: #08566d;        
+  border-color: #08566d;
+  color: white;
+}
+
+
+.form-control:focus {
+  border-color: #0b6e8a;           
+}
+
+
+.site-footer {
+  border-top: 1px solid #d9e0ea;
+  color: #4b5a6e;
+}
+
+.profile-photo {
+  position: relative;
+  width: min(300px, 70vw);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e9ecef;
+  border: 4px solid #fff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+.profile-photo .initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #6c757d;
+}
+.profile-photo img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.skill-group {
+  height: 100%;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.skill-group h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #495057;
+}
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skill-chip {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #212529;
+  background: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 999px;
+}
+
+
+a:focus-visible, button:focus-visible, .form-control:focus-visible {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
